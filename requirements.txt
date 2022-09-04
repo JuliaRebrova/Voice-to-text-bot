@@ -1,0 +1,4 @@
+aiogram==2.15
+PySoundFile==0.9.0.post1
+soundfile==0.10.3.post1
+SpeechRecognition==3.8.1
