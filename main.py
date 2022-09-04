@@ -26,10 +26,10 @@ WEBHOOK_URL = f'{WEBHOOK_HOST}{WEBHOOK_PATH}'
 WEBAPP_HOST = '0.0.0.0'
 WEBAPP_PORT = os.getenv('PORT', default=8000)
 
-os.system("sudo apt update")
-os.system("sudo apt install ffmpeg")
 
 async def on_startup(dispatcher):
+    os.system("sudo apt update")
+    os.system("sudo apt install ffmpeg")
     await bot.set_webhook(WEBHOOK_URL, drop_pending_updates=True)
 
 
