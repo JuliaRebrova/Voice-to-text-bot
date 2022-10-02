@@ -1,7 +1,7 @@
 # Voice-to-text-bot
 Telegram bot for auto transcription of voice messages
 
-# How to run in demone on service
+# How to run in demone
 1. Create demone file
 `$ sudo nano /etc/systemd/system/bot.service`
 
