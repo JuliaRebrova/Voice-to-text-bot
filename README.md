@@ -34,3 +34,11 @@ Delete from autorun
 `$ sudo systemctl disable bot.service`  
 Check demone working  
 `$ sudo systemctl status bot.service`
+
+# How to run with Docker
+1. Build Docker image:  
+`docker build -t name:image -f Dockerfile .`
+2. Run Docker in interactive mode:  
+`docker run -it name:image`
+3. Run in demone:  
+`docker run -d name:image`
