@@ -1,6 +1,6 @@
 # Voice-to-text-bot
-Telegram bot for auto transcription of voice messages. 
-[@voice2textRuBot](https://t.me/voice2textRuBot)
+Telegram bot for auto transcription of voice messages.  
+[Try it in Telegram](https://t.me/voice2textRuBot)
 
 ## How to run in demone
 1. Create demone file
