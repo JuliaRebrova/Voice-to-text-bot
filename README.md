@@ -2,7 +2,7 @@
 Telegram bot for auto transcription of voice messages. 
 [@voice2textRuBot](https://t.me/voice2textRuBot)
 
-# How to run in demone
+## How to run in demone
 1. Create demone file
 `$ sudo nano /etc/systemd/system/bot.service`
 
@@ -35,7 +35,7 @@ Delete from autorun
 Check demone working  
 `$ sudo systemctl status bot.service`
 
-# How to run with Docker
+## How to run with Docker
 1. Build Docker image:  
 `docker build -t name:image -f Dockerfile .`
 2. Run Docker in interactive mode:  
