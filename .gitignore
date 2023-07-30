@@ -1,4 +1,6 @@
-token_bot.py
+instructions.txt
+nohup.out
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
